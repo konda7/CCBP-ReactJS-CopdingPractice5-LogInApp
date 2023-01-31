@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.content-conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  width: 90%;
+  max-width: 450px;
+  height: 90%;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.btn {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+}
